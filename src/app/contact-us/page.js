@@ -50,7 +50,7 @@ export default function Page() {
   return (
     <section className="overflow-hidden">
       <ContactUs />
-      <section className=" h-[486px] bg-sky-900 rounded-bl-[20px] rounded-br-[20px] ">
+      <section className=" h-[486px] bg-[#00586B] rounded-bl-[20px] rounded-br-[20px] ">
         <div className="w-full max-w-[1200px] mx-auto">
           <div className="pt-20">
             <p className="text-center text-white text-4xl font-bold">
@@ -90,15 +90,9 @@ export default function Page() {
                   src="/baselinefacebook.svg"
                   alt="facebook"
                   className="w-8 h-8 "
-                  
                 />
-                <img
-                  src="/instagram.svg"
-                  alt="instagram"
-                  className="w-8 h-8"
-                  
-                />
-                <img src="/twitter.svg" alt="twitter"  className="w-8 h-8" />
+                <img src="/instagram.svg" alt="instagram" className="w-8 h-8" />
+                <img src="/twitter.svg" alt="twitter" className="w-8 h-8" />
               </div>
             </div>
           </div>
@@ -253,7 +247,6 @@ export default function Page() {
       </section>
       <ToastContainer />
       <CloserToFooter />
-    
     </section>
   );
 }
