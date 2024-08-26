@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const DataVolunteer = () => {
   return (
-    <section className="grid grid-cols-2 gap-[30px] w-full max-w-[1200px] mx-auto mt-11">
+    <section className="grid grid-cols-2 gap-[30px] w-full max-w-[1200px] mx-auto mt-11 font-calibri">
       <div className="mb-20" >
         <p className="text-[18px] font-normal leading-snug mb-10">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas

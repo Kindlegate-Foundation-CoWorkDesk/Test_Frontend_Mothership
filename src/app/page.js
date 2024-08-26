@@ -23,10 +23,10 @@ export default function Home() {
         <div className="w-full h-full flex justify-end">
           <div className="w-[589px] h-auto py-[22px] flex flex-col justify-center items-center gap-4 mr-10">
             <div className="h-[295px] px-[60px] pb-7 flex flex-col justify-start items-start gap-[26px]">
-              <div className="text-zinc-100 text-[64px] font-bold font-['Calibri'] leading-[64px]">
-                KINDLEGATE FOUNDATION
+              <div className="text-zinc-100 text-[64px] font-bold font-calibri  leading-[64px]">
+                <span className="tracking-[0.06em]">KINDLEGATE</span> <span>FOUNDATION</span>
               </div>
-              <div className="self-stretch text-justify text-zinc-100 text-xl font-normal font-['Calibri'] leading-snug">
+              <div className="self-stretch w-[379px] text-justify text-zinc-100 text-xl font-normal font-calibri leading-snug">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -34,16 +34,16 @@ export default function Home() {
                 est.
               </div>
             </div>
-            <div className="mr-24 w-[361px] px-14 py-4 bg-cyan-500 rounded-[56px] flex justify-center items-center gap-2">
+            <div className="mr-24 w-[361px] mt-8 px-14 py-4 bg-cyan-500 rounded-[56px] flex justify-center items-center gap-2">
               <Link
                 href="/involved"
-                className="text-zinc-950 text-[25px] font-bold font-['Calibri'] leading-7"
+                className="text-zinc-950 text-[25px] font-bold font-calibri leading-7"
               >
                 GET INVOLVED
               </Link>
             </div>
             <div className="mr-24 px-14 py-4 bg-amber-400 rounded-[56px] flex justify-center items-center gap-2">
-              <div className="text-black text-[25px] font-bold font-['Calibri'] leading-7">
+              <div className="text-black text-[25px] font-bold font-calibri leading-7">
                 KINDLEGATE CAUSE SHOP
               </div>
             </div>

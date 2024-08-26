@@ -11,10 +11,9 @@ export default function Slide1({src, title, content}) {
         alt="Placeholder"
       />
       <div className="w-[672px] bg-[#4B4B4B] h-[354px] left-0 top-[144px] absolute">
-        <div className="w-[586px] left-[52px] top-[15px] absolute text-white text-xl font-normal font-['Calibri'] ">
-          <h1> {title}</h1> <br />
-       
-          {content}
+        <div className="w-[586px] left-[52px] top-[15px] absolute text-white text-xl font-normal font-calibri ">
+          <h1 className='font-calibri'> {title}</h1> <br />
+          <p className='font-calibri'> {content}</p>
         </div>
       </div>
     </div>

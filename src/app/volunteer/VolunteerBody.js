@@ -71,7 +71,7 @@ export default function VolunteerBody() {
           </div>
         </div>
       </div>
-      <div className="text-center pt-[56px] text-gray-900 text-4xl font-bold font-['Calibri'] leading-[72px]">
+      <div id="developer" className="text-center pt-[56px] text-gray-900 text-4xl font-bold font-['Calibri'] leading-[72px]">
         DEVELOPMENT TEAM
       </div>
       <div className="w-[125px]  mx-auto h-[0px] border-4 border-amber-400"></div>

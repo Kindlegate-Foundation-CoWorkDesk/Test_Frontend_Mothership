@@ -9,23 +9,30 @@
     box-sizing: border-box;
 }
 
+
 @layer base {
     @font-face {
-        font-family: 'calibri';
-        src: url("/Calibri.ttf");
+        font-family: 'Calibri';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/Calibri.ttf) format('.ttf');
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+
+        src: url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
     }
 }
 
 @layer components {
-    .dropdown-menu {
-        @apply absolute left-0 mt-2 w-[213px] rounded-[5px] border border-[#006991] bg-[#F2F2F2] z-50 opacity-100 transform -translate-y-8  transition-transform duration-300 ease-in-out;
-    }
-
-    .relative:hover .dropdown-menu {
-        @apply opacity-100 translate-y-0;
-    }
 
     .dropdown-item {
-        @apply px-2 py-2.5 m-2 hover:bg-cyan-500 rounded-[10px] flex items-center text-[#006991] text-base font-bold leading-5;
+        @apply px-2 py-2 w-full hover:bg-[#f2f2f2] flex items-center text-[#006991] text-base font-calibri font-bold leading-5;
     }
 }

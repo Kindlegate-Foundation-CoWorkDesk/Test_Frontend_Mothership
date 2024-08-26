@@ -33,11 +33,11 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="Leadership"
               />
-              <h2 className="text-xl font-semibold mt-4   ">LEADERSHIP</h2>
+              <h2 id="leadership" className="text-xl font-semibold mt-4 font-calibri  ">LEADERSHIP</h2>
               <div className="w-[85px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div className="gap-[96px]">
-              <p className="mr-24 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-24 p-6 font-calibri w-[589px] font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -59,7 +59,7 @@ export default function page() {
               </p>
             </div>
 
-            <div className=" mt-10 flex flex-col items-center text-center">
+            <div className=" mt-10 flex flex-col items-center text-center font-calibri">
               <Image
                 src={confidentbusinessman}
                 width={300}
@@ -67,12 +67,12 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="Entrepreneurship"
               />
-              <h2 className="text-xl font-semibold mt-4">ENTREPRENEURSHIP</h2>
+              <h2 id="entreprenuership" className="text-xl font-semibold mt-4">ENTREPRENEURSHIP</h2>
               <div className="w-[132px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div>
               {" "}
-              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-16 p-6 font-normal text-[#2B2B2B] font-calibri text-justify leading-[22.5px] text-sm">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -102,11 +102,11 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="Arts Exhibition"
               />
-              <h2 className="text-xl font-semibold mt-4">ARTS EXHIBITION</h2>
+              <h2 id="art" className="text-xl font-semibold mt-4 font-calibri">ARTS EXHIBITION</h2>
               <div className="w-[124px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div>
-              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-16 p-6 font-normal text-[#2B2B2B] font-calibri text-justify leading-[22.5px] text-sm">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -136,13 +136,13 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="Food and Shelter Program"
               />
-              <h2 className="text-xl font-semibold mt-4">
+              <h2 id="food" className="text-xl font-semibold mt-4 font-calibri">
                 FOOD & SHELTER PROGRAM
               </h2>
               <div className="w-[220px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div>
-              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm font-calibri">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -172,12 +172,12 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="IT Training"
               />
-              <h2 className="text-xl font-semibold mt-4">IT TRAINING</h2>
+              <h2 id="training" className="text-xl font-semibold mt-4 font-calibri">IT TRAINING</h2>
               <div className="w-[220px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
             <div>
               {" "}
-              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm">
+              <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm font-calibri">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Maecenas porttitor congue massa. Fusce posuere, magna sed
                 pulvinar ultricies, purus lectus malesuada libero, sit amet
@@ -207,12 +207,12 @@ export default function page() {
                 className="h-[200px] w-auto rounded-3xl"
                 alt="Vocational Training and Workshop"
               />
-              <h2 className="text-xl font-semibold mt-4">
+              <h2 id="vocation" className="text-xl font-semibold mt-4 font-calibri">
                 VOCATIONAL TRAINING & WORKSHOP
               </h2>
               <div className="w-[306px] h-[0px] border-2 rounded-[3px] border-amber-400"></div>
             </div>
-            <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm ">
+            <p className="mr-16 p-6 font-normal text-[#2B2B2B] text-justify leading-[22.5px] text-sm  font-calibri">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
               ultricies, purus lectus malesuada libero, sit amet commodo magna

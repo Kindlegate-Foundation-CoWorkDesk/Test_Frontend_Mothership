@@ -14,10 +14,10 @@ const Sponsor = () => {
           />
         </div>
         <div className="absolute top-[100px] md:top-[270px] md:w-[589px] z-10  md:ml-[8%]">
-            <h1 className="text-zinc-100 text-center  font-bold md:text-[50px] mb-4">
-                REACH US
+            <h1 className="text-zinc-100 text-center uppercase font-calibri font-bold md:text-[50px] mb-4">
+              our sponsors
             </h1>
-            <p className="md:text-xl font-normal text-center text-zinc-100">
+            <p className="md:text-xl font-normal text-center font-calibri text-zinc-100">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
               purus lectus malesuada libero, sit amet commodo magna eros quis

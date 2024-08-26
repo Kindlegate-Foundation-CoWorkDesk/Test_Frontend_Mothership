@@ -14,21 +14,21 @@ function OurTeam({ title, description, buttonText, board, href }) {
             <div className="w-[268px] h-[165px] absolute bg-zinc-300 rounded-tl-[100px] rounded-tr-[100px] left-[66px] top-[195px]" />
           </div>
           <div className="flex flex-col items-center">
-            <div className="text-center text-black text-[32px] font-bold font-['Calibri'] leading-[72px]">
+            <div className="text-center text-black text-[32px] font-bold font-calibri leading-[72px] ">
             {board}
             </div>
             <div className="w-[208px] h-[0px] border-[3px] border-amber-400"></div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center gap-8">
-          <div className="w-[644px] text-black text-xl font-normal font-['Calibri'] leading-snug">
+          <div className="w-[644px] text-black text-xl font-normal font-calibri leading-snug">
             {description}
           </div>
           <Link href={href}
             className="px-14 py-4 bg-cyan-500 rounded-[56px] flex justify-center items-center gap-2"
             
           >
-            <div className="text-sky-950 text-[25px] font-bold font-['Calibri'] leading-7">
+            <div className="text-sky-950 text-[25px] font-bold font-calibri leading-7">
               {buttonText}
             </div>
           </Link>

@@ -26,7 +26,7 @@ function RoadMap() {
         className="w-[280px] absolute -top-11 -right-6"
         alt=""
       />
-      <div className="ml-24 text-white mt-8 text-[40px] font-bold leading-[49.50px]">
+      <div className="ml-24 text-white font-calibri mt-8 text-[40px] font-bold leading-[49.50px]">
         <div className="flex justify-between">
           OUR VALUE ADDING ROADMAP <br />
           (HESS MANDATE)

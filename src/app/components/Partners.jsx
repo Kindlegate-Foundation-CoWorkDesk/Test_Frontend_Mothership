@@ -4,33 +4,33 @@ function Partners() {
   return (
     <>
       <div className="  mb-10 w-full p-6 lg:max-w-[1200px] lg:mx-auto md:p-5 space-y-16  flex flex-col justify-center items-center">
-        <h1 className="text-[#1E1E1E] font-bold text-[24px] lg:text-[30px]  border-b-2 border-[#E3B522]">
+        <h1 className="text-[#1E1E1E] font-calibri font-bold text-[24px] lg:text-[30px]  border-b-2 border-[#E3B522]">
           Our Partners
         </h1>
         {/* <img src="./partnerlogos.svg" alt="partnersLogos" className="" /> */}
         <div className="flex flex-row items-center gap-5">
-          <a href="https://www.one.org/">
+          <a href="https://www.one.org/" target="_blank">
             <img
               src="/one campaign.svg"
               alt="partnersLogos"
               className="w-[150px]"
             />
           </a>
-          <a href="https://www.care.org/">
+          <a href="https://www.care.org/" target="_blank">
             <img
               src="/care foundation.svg"
               alt="partnersLogos"
               className="w-[300px]"
             />
           </a>
-          <a href="https://www.savethechildren.net/">
+          <a href="https://www.savethechildren.net/" target="_blank">
             <img
               src="/save the children.svg"
               alt="partnersLogos"
               className="w-[200px]"
             />
           </a>
-          <a href="https://www.oxfam.org/">
+          <a href="https://www.oxfam.org/" target="_blank">
             <img
               src="/oxfam.svg"
               alt="partnersLogos"
@@ -39,7 +39,7 @@ function Partners() {
           </a>
         </div>
         <div className="grid grid-cols-2 items-center gap-5 ">
-          <a href="https://unfoundation.org/">
+          <a href="https://unfoundation.org/" target="_blank">
             <img
               // height={100}
               // width={200}
@@ -49,7 +49,7 @@ function Partners() {
               className="w-[500px]"
             />
           </a>
-          <a href="https://www.unicef.org/">
+          <a href="https://www.unicef.org/" target="_blank">
             <img
               // height={600}
               // width={600}
@@ -59,7 +59,7 @@ function Partners() {
               className="w-[400px] "
             />
           </a>
-          <a href="https://www.wvi.org/">
+          <a href="https://www.wvi.org/" target="_blank">
             <img
               src="/png-transparent-world-logo-world-vision-international-foundation-text-world-vision-deutschland-future-v.svg"
               alt="partnersLogos"

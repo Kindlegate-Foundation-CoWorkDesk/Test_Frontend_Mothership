@@ -13,10 +13,10 @@ export default function UpcomingEvent() {
         />
 
         <div className="absolute left-[613px] top-[23px] flex flex-col justify-start items-start gap-4">
-          <div className="text-black text-[32px] font-bold font-['Calibri'] leading-[72px]">
+          <div className="text-black text-[32px] font-bold font-calibri leading-[72px]">
             About this Event
           </div>
-          <div className="text-sky-950 text-xl font-normal font-['Calibri'] leading-snug">
+          <div className="text-sky-950 text-xl font-normal font-calibri leading-snug">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam
@@ -24,16 +24,16 @@ export default function UpcomingEvent() {
         </div>
 
         <div className="absolute left-[23px] top-[160px] w-[119px] h-[82px] bg-amber-400 rounded-[5px] flex flex-col justify-center items-center gap-2.5">
-          <div className="text-gray-900 text-base font-bold font-['Open Sans'] leading-normal">
+          <div className="text-gray-900 text-base font-bold font-opensan leading-normal">
             23 Juli
           </div>
-          <div className="text-gray-900 text-[32px] font-bold font-['Open Sans'] leading-normal">
+          <div className="text-gray-900 text-[32px] font-bold font-opensan leading-normal">
             2023
           </div>
         </div>
 
         <div className="absolute left-[613px] top-[260px] w-[200px] h-[54px] bg-amber-400 rounded-[56px] flex justify-center items-center gap-2">
-          <div className="text-zinc-800 text-xl font-bold font-['Calibri'] leading-7">
+          <div className="text-zinc-800 text-xl font-bold font-calibri leading-7">
             JOIN NOW
           </div>
         </div>

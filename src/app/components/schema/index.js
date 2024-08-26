@@ -5,8 +5,8 @@ const validRegex = new RegExp(
 );
 
 export const contactSchema = Yup.object({
-  firstName: Yup.string("name must be at least 5 characters")
-    .min(5)
+  firstName: Yup.string("name must be at least 3 characters")
+    .min(3)
     .required("plese enter your first name"),
   lastName: Yup.string("please enter your Lirst Name").required(
     "please enter your last name"

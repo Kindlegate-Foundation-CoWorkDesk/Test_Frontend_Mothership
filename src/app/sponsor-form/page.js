@@ -104,7 +104,7 @@ function Form() {
   };
 
   return (
-    <section className=" relative">
+    <section className=" relative font-calibri">
       <div className="bg-cyan-500 absolute inset-0 h-[113px]"></div>
       <div className="pt-[150px]">
         <div className="max-w-4xl  mb-11 mt-[150px] mx-auto p-6 bg-[#EEEEEE] shadow-md rounded-md">

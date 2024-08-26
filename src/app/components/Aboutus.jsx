@@ -6,8 +6,8 @@ function Aboutus() {
     <div className=" w-screen lg:w-screen lg:mx-auto md:p-5 mt-5">
       <div className="flex flex-col items-center justify-between lg:flex-row text-[#1E1E1E]">
         <div className="  ml-32 space-y-8 md:w-[30%]">
-          <h1 className="text-[20px] font-bold">About Us</h1>
-          <p className="text-[12px] font-normal">
+          <h1 className="text-[20px] font-calibri font-bold">About Us</h1>
+          <p className="text-[12px] w-[589px] font-calibri font-normal">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
             purus lectus malesuada libero, sit amet commodo magna eros quis urna.

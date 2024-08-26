@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app"
   ],
-  "SelectedNode": "\\C:\\Users\\user\\Documents\\Build\\kindlegate\\kindlegate-mothership",
+  "SelectedNode": "\\src\\app\\page.js",
   "PreviewInSolutionExplorer": false
 }

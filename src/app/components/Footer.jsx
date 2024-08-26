@@ -22,14 +22,14 @@ function Footer() {
                 className="w-10 h-10 md:w-24 md:h-24 mr-2"
               />
             </Link>
-            <p className="font-light text-[12px] md:text-[14px]">
+            <p className="font-light font-calibri text-[12px] md:text-[14px]">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
               porttitor congue massa. Fusce posuere, magna sed pulvinar
               ultricies,
             </p>
           </div>
 
-          <div className="Footeritems  list-none text-[12px] w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:text-[20px] md:text-[14px] font-normal md:w-[70%] leading-[28px] mt-3 mb-4">
+          <div className="Footeritems font-calibri  list-none text-[12px] w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:text-[20px] md:text-[14px] font-normal md:w-[70%] leading-[28px] mt-3 mb-4">
             <div className="space-y-3">
               <div className="space-y-3">
                 <Link href="/contact-us">Reach Us</Link>
@@ -47,13 +47,13 @@ function Footer() {
                 <Link href="/programs">Programs</Link>
               </div>
               <div className="space-y-3">
-                <Link href="/programs">Arts</Link>
+                <Link href="/programs#art">Arts</Link>
               </div>
               <div className="space-y-3">
-                <Link href="/programs">SDGs</Link>
+                <Link href="/programs#training">SDGs</Link>
               </div>
               <div className="space-y-3">
-                <Link href="/programs">Entrepreneurship</Link>
+                <Link href="/programs#entreprenuership">Entrepreneurship</Link>
               </div>
             </div>
 

@@ -53,15 +53,15 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 z-50 flex justify-between uppercase px-6 items-center w-full h-[113px] transition-colors duration-300 ${
+      className={`fixed  top-0 z-50 font-calibri  flex justify-between uppercase   items-center w-full h-[97px] transition-colors duration-300 ${
         isScrolled ? "bg-[#14bde3]" : "bg-transparent"
       }`}
     >
-      <div className="flex items-center justify-between w-full px-11">
+      <div className="flex items-center justify-between w-full px-[93px] pt-[px] font-bold">
         <Link href="/">
-          <Image src={logo} width={79} height={84} alt="Logo" />
+          <Image src={logo} width={80} height={86} alt="Logo" />
         </Link>
-        <div className="flex space-x-4 gap-11 font-medium text-white cursor-pointer">
+        <div className="flex space-x-2 gap-8 items-center font-semibold text-white cursor-pointer">
           <Link href="/">Home</Link>
           <Link href="/mandate">Our Mandate</Link>
 
@@ -70,33 +70,29 @@ function Header() {
             ref={programDropdownRef}
             onMouseEnter={() => handleMouseEnter("program")}
           >
-            <div className="text-white">Programs</div>
+            <div className="text-white">
+              <Link href="/programs">PROGRAMS</Link>
+            </div>
             <div
-              className={`absolute left-0 top-full mt-2 w-[213px] rounded-[5px] border border-blue-500 bg-[#F2F2F2] z-50 transition-all duration-1000 ease-in-out ${
+              className={`absolute left-0 top-full mt-2 w-[213px] border border-[#006991] bg-[#FFF] z-50 transition-all duration-1000 ease-in-out ${
                 openDropdown === "program"
                   ? "opacity-100 transform translate-y-0"
                   : "opacity-0 transform -translate-y-2 pointer-events-none"
               }`}
             >
-              <Link
-                href="/programs"
-                className="dropdown-item px-5 py-2.5 m-2 border border-[#006991] rounded-[36px] flex items-center text-base font-bold leading-7 text-[#006991]"
-              >
-                PROGRAMS
-              </Link>
-              <Link href="/arts" className="dropdown-item">
+              <Link href="/programs#art" className="dropdown-item">
                 ARTS
               </Link>
-              <Link href="/trustees" className="dropdown-item">
+              <Link href="/programs#leadership" className="dropdown-item">
                 LEADERSHIP
               </Link>
-              <Link href="/entrepreneurship" className="dropdown-item">
+              <Link href="/programs#entreprenuership" className="dropdown-item">
                 ENTREPRENEURSHIP
               </Link>
-              <Link href="/food-shelter" className="dropdown-item">
+              <Link href="/programs#food" className="dropdown-item">
                 FOOD SHELTER
               </Link>
-              <Link href="/sbg-awareness" className="dropdown-item">
+              <Link href="/programs#training" className="dropdown-item">
                 SDG AWARENESS
               </Link>
             </div>
@@ -107,27 +103,29 @@ function Header() {
             ref={tribeDropdownRef}
             onMouseEnter={() => handleMouseEnter("tribe")}
           >
-            <div className="text-white">Our Tribe</div>
+            <div className="text-white">
+              <Link className="" href="/tribepage">
+                OUR TRIBE
+              </Link>
+            </div>
             <div
-              className={`absolute left-0 top-full mt-2 w-[213px] rounded-[5px] border border-blue-500 bg-[#F2F2F2] z-50 transition-all duration-1000 ease-in-out ${
+              className={`absolute left-0 top-full mt-2 w-[213px] border border-[#006991] bg-[#FFF] z-50 transition-all duration-1000 ease-in-out ${
                 openDropdown === "tribe"
                   ? "opacity-100 transform translate-y-0"
                   : "opacity-0 transform -translate-y-2 pointer-events-none"
               }`}
             >
-              <div className="dropdown-item px-5 py-2.5 m-2 border border-[#006991] rounded-[36px] flex items-center text-base font-bold leading-7 text-[#006991]">
-                <Link className="" href="/tribepage">
-                  OUR TRIBE
-                </Link>
-              </div>
               <Link href="/board" className="dropdown-item">
                 BOARD OF DIRECTORS
               </Link>
-              <Link href="/council" className="dropdown-item">
-                EXECUTIVE ADVISORY
+              <Link href="/board#advisory" className="dropdown-item">
+                ADVISORY BOARD
               </Link>
-              <Link href="/volunteer" className="dropdown-item">
+              <Link href="/volunteer#developer" className="dropdown-item">
                 DEVELOPMENT TEAM
+              </Link>
+              <Link href="/council" className="dropdown-item">
+                ADVISORY COUNCIL
               </Link>
             </div>
           </div>
@@ -141,40 +139,33 @@ function Header() {
             ref={involvedDropdownRef}
             onMouseEnter={() => handleMouseEnter("involved")}
           >
-            <div className="text-white flex gap-2">
-              Get Involved
+            <div className="text-white items-center flex gap-1">
+              <Link href="/involved">GET INVOLVED</Link>
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
+                  viewBox="0 -960 960 960"
+                  fill="white"
                   stroke-width="1.5"
-                  stroke="currentColor"
-                  className="size-6"
+                  stroke="white"
+                  className="w-8 h-8"
                 >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5"
-                  />
+                  <path d="M480-360 280-560h400L480-360Z" />
                 </svg>
               </span>
             </div>
             <div
-              className={`absolute left-0 top-full mt-2 w-[213px] rounded-[5px] border border-blue-500 bg-[#F2F2F2] z-50 transition-all duration-1000 ease-in-out ${
+              className={`absolute left-0 top-6 mt-2 w-[213px]  border border-[#006991] bg-[#ffff] z-50 transition-all duration-1000 ease-in-out ${
                 openDropdown === "involved"
                   ? "opacity-100 transform translate-y-0"
                   : "opacity-0 transform -translate-y-2 pointer-events-none"
               }`}
             >
-              <Link
-                href="/involved"
-                className="dropdown-item px-5 py-2.5 m-2 border border-[#006991] rounded-[36px] flex items-center text-base font-bold leading-7 text-[#006991]"
-              >
-                GET INVOLVED
-              </Link>
               <Link href="/sponsor" className="dropdown-item">
                 AS A SPONSOR
+              </Link>
+              <Link href="/partner" className="dropdown-item">
+                AS A PARTNER
               </Link>
               <Link href="/mentor" className="dropdown-item">
                 AS A MENTOR
@@ -184,9 +175,26 @@ function Header() {
               </Link>
             </div>
           </div>
+          <Link href="/">Language</Link>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </div>
         </div>
 
-        <button className="bg-[#00A859] px-[28px] rounded-full uppercase outline outline-2 text-white inline-flex py-[5px]">
+        <button className="bg-[#00A859] px-[28px] py-2 rounded-[31px] uppercase  text-white text-center font-calibri">
           Donate
         </button>
       </div>

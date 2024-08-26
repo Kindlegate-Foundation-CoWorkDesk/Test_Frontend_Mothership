@@ -10,14 +10,14 @@ export default function page() {
     <section className="overflow-hidden">
      
       <Involved />
-      <section className="mt-20">
+      <section className="mt-20 font-calibri">
         <div className="w-full max-w-[1000px]  mx-auto mt-7">
           <div className="w-[506px] mx-auto">
             <p className="text-center text-stone-900 text-4xl font-bold leading-[72px]">
               VOLUNTEER, PARTNER, MENTOR OR SPONSOR
             </p>
           </div>
-          <div className="w-[w-[727px]  mt-10">
+          <div className="w-[727px]  mt-10">
             <p className="text-center text-zinc-800 text-xl font-normal leading-snug">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

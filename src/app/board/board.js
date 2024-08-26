@@ -11,7 +11,7 @@ const BoardPage = () => {
             alt="boardImage"
           />
         </div>
-        <div className="absolute top-[100px] md:top-[270px] md:w-[589px] z-50  md:ml-[8%]">
+        <div className="absolute top-[100px] right-[164.25px] md:top-[270px] md:w-[589px] z-10  md:ml-[8%] font-calibri">
           <h1 className="text-zinc-100 text-center  font-bold md:text-[50px] mb-4">
             BOARDS OF DIRECTORS
           </h1>

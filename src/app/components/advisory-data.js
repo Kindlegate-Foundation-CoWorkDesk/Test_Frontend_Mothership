@@ -3,7 +3,7 @@ import { CiUser } from "react-icons/ci";
 
 const AdvisoryData = () => {
   return (
-    <section className=" mt-5  h-[1610px]">
+    <section className=" mt-5  h-[1610px] font-calibri">
       <div className="mx-auto max-w-[1200px] w-full ">
         <div className="flex items-center  justify-between gap-52 ">
           <div>

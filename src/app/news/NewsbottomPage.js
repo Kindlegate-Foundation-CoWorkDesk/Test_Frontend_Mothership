@@ -6,7 +6,7 @@ export default function NewsbottomPage() {
   return (
     <section >
       
-        <h3 className=" mt-[78px] text-center text-black text-4xl font-bold font-['Calibri'] leading-[72px]">
+        <h3 className=" mt-[78px] text-center text-black text-4xl font-bold font-calibri leading-[72px]">
           Upcoming Event
         </h3>
 

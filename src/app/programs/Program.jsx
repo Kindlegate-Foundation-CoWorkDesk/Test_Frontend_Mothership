@@ -17,13 +17,13 @@ function Program() {
       />
 
      <div className="absolute inset-0 bg-black opacity-[-50]"></div>
-    <div className="absolute top-[100px] md:top-[270px] md:w-[589px] z-10 md:ml-[8%] text-center text-zinc-100">
-    <h1 className="font-bold md:text-[50px] mb-4">
-      <Link href="/mandate">
+    <div className="absolute top-[50%] right-[8%] md:top-[270px] md:w-[589px] z-10 md:mr-[8%] text-center text-zinc-100">
+    <h1 className="font-bold md:text-[50px] mb-4 font-calibri">
+      
         PROGRAMS
-      </Link>
+      
     </h1>
-    <p className="md:text-xl font-normal">
+    <p className="md:text-xl font-normal font-calibri w-[589px]">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est.
     </p>
   </div>

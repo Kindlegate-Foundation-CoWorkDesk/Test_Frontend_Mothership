@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Involved = () => {
   return (
-    <section className="">
+    <section className="font-calibri">
       <div className="w-full  md:h-[700px]">
         <div className="relative">
           <img
@@ -20,7 +20,7 @@ const Involved = () => {
           <h1 className="text-zinc-100 text-center  font-bold md:text-[50px] mb-4">
             GET INVOLVED
           </h1>
-          <p className="md:text-xl font-normal text-center text-zinc-100">
+          <p className="md:text-xl w-[589px] font-normal text-center text-zinc-100">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
             porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
             purus lectus malesuada libero, sit amet commodo magna eros quis

@@ -23,10 +23,10 @@ function OurTribe() {
           <div className="absolute inset-0 bg-gradient-to-b from-gray-200/0 via-gray-900/10 to-gray-800 " /> */}
         </div>
         <div className=" absolute top-32 w-full px-4 lg:px-0 lg:w-[950px] mt-[180px] flex flex-col justify-start items-center gap-8">
-          <h1 className="  text-center text-[#f1f1f1] text-[64px] font-extrabold font-['Calibri'] leading-[64px]">
+          <h1 className="  text-center text-[#f1f1f1] text-[64px] font-extrabold font-calibri leading-[64px]">
             OUR TRIBE
           </h1>
-          <p className="text-center text-zinc-100 text-xl font-normal font-['Calibri'] leading-snug max-w-xl">
+          <p className="text-center text-zinc-100 text-xl font-normal font-calibri w-[589px] leading-snug max-w-xl">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
             porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
             purus lectus malesuada libero, sit amet commodo magna eros quis

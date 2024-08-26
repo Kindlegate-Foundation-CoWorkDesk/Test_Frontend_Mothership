@@ -11,10 +11,10 @@ export default function page() {
     <section className="overflow-hidden">
       <Sponsor />
 
-      <section className=" w-full mt-10">
+      <section className=" w-full mt-10 font-calibri">
         <div className="w-full max-w-[1000px] mx-auto ">
           <div className="p-10">
-            <h6 className="text-[36px] text-[#14242C] font-bold text-center">
+            <h6 className="text-[36px] text-[#14242C] font-calibri font-bold text-center">
               Sponsor our Programs/Event
             </h6>
             <hr className="w-[125px] bg-[#E3B522] h-[8px] rounded-[5px] mx-auto" />

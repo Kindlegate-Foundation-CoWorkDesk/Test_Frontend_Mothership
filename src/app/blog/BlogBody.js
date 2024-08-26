@@ -13,11 +13,11 @@ export default function BlogBody() {
     <section className="mt-[70px] relative pb-[222px]">
       {BlogData.map((blog, index) => (
         <div key={blog.id} className="mb-8 px-[126px]">
-          <div className="w-[696px] text-stone-900 text-[40px] font-bold font-['Calibri'] leading-[49.50px] mb-4">
+          <div className="w-[696px] text-stone-900 text-[40px] font-bold font-calibri leading-[49.50px] mb-4">
             {blog.title}
           </div>
           <div className="w-[550px] h-[0px] border-4 border-amber-400 mb-4"></div>
-          <div className="mb-[41px] text-stone-900 text-xl font-normal font-['Calibri'] leading-[43px]">
+          <div className="mb-[41px] text-stone-900 text-xl font-normal font-calibri leading-[43px]">
             {blog.date}
           </div>
           <div
@@ -38,7 +38,7 @@ export default function BlogBody() {
             <div
               className={`w-[670px] ${
                 blog.image && index === 1 ? "mr-[100px]" : ""
-              } text-zinc-800 text-xl font-normal font-['Calibri'] leading-snug text-left`}
+              } text-zinc-800 text-xl font-normal font-calibri leading-snug text-left`}
             >
               {blog.text}
             </div>

@@ -3,7 +3,6 @@
 import ContactUs from "./contactUs";
 import Image from "next/legacy/image";
 
-
 import CloserToFooter from "../CloserToFooter";
 
 import { useFormik } from "formik";
@@ -53,16 +52,16 @@ export default function Page() {
       <section className=" h-[486px] bg-[#00586B] rounded-bl-[20px] rounded-br-[20px] ">
         <div className="w-full max-w-[1200px] mx-auto">
           <div className="pt-20">
-            <p className="text-center text-white text-4xl font-bold">
+            <p className="text-center font-calibri text-white text-4xl font-bold">
               CONTACT INFORMATION
             </p>
           </div>
 
-          <div className="flex items-center justify-between  mt-20">
+          <div className="flex font-calibri items-center justify-between  mt-20">
             <div>
-              <h1 className="text-white text-[32px]">Address</h1>
+              <h1 className="text-white font-calibri text-[32px]">Address</h1>
               <div className="w-[77px] h-[0px] border-4 rounded-[5px] border-amber-400"></div>
-              <p className="leading-[22.5px] text-white text-[20px] font-normal w-[378px] mt-6">
+              <p className="leading-[22.5px] font-calibri text-white text-[20px] font-normal w-[378px] mt-6">
                 The Grey Gate, Olushola Agbaje, Off Road 13 lekki Phase I,
                 Lagos, Nigeria.
               </p>
@@ -74,12 +73,12 @@ export default function Page() {
                 <h2 className="text-white text-[20px] text-center font-normal ">
                   +234 818 038 0006
                 </h2>
-                <p className="text-white text-[20px] text-center font-normal">
+                <p className="text-white text-[20px] text-center font-calibri font-normal">
                   info@kindlegatefoundation.org
                 </p>
               </div>
             </div>
-            <div className="">
+            <div className="font-calibri">
               <h1 className="text-white text-[32px]">Social Media</h1>
               <div className="flex justify-end ">
                 <hr className="border-4 w-[128px] rounded-[5px] border-amber-400"></hr>
@@ -98,14 +97,14 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className="flex items-center mb-20 justify-center ">
+      <section className="flex items-center mb-20 justify-center font-calibri ">
         <div className="w-full max-w-[1000px]  mx-auto  ">
           <h1 className="text-center text-[30px] text-[#1E1E1E] font-bold p-8">
             SEND A MESSAGE
           </h1>
 
           <form
-            className="w-full  flex flex-col gap-8 mt-10"
+            className="w-full  uppercase font-calibri flex flex-col gap-8 mt-10"
             onSubmit={handleSubmit}
           >
             <div className="flex items-center  gap-10 w-full">
@@ -235,7 +234,7 @@ export default function Page() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-[169px] bg-[#14BDE3] rounded-[56px] pt-[16px] pr-[56px] pb-[16px] pl-[56px] text-[20px] block
+                  className=" bg-[#14BDE3] rounded-[56px] px-[55px] py-[14px]  text-[20px] block
                     font-medium text-[#1E1E1E] hover:bg-[#39494d] hover:text-white"
                 >
                   Send

@@ -43,12 +43,12 @@ const Sponsors = () => {
   return (
     <section className="mb-20 w-full max-w-[1250px] h-[969px] mt-20 mx-auto">
       <div className="mb-10 w-[480px]">
-        <p className="text-[35px] text-[#14242C] font-bold">Our Sponsorship Package</p>
+        <p className="text-[35px] text-[#14242C] font-calibri font-bold">Our Sponsorship Package</p>
         <hr className="w-[206px] bg-[#E3B522] h-[8px] rounded-[5px] mx-auto" />
 
       </div>
      
-      <div className="grid grid-cols-3 gap-5 ">
+      <div className="grid grid-cols-3 gap-5 font-calibri ">
         {data.map((item) => (
           <div className="w-[365px] h-[349px] flex flex-col gap-10  border border-[#14242C] rounded-[8px]" key={item.id}>
             <h1 className="text-center text-[32px] text-[#14242C] font-bold mt-5">{item.header}</h1>

@@ -11,7 +11,8 @@ module.exports = {
         "light-grey": "#F1F1F1",
       },
       fontFamily: {
-        "calibri": ["Calibri", "sans-serif"],
+        calibri: ["Calibri", "sans-serif"],
+        opensan: ["Open Sans", "sans-serif"]
       },
       backgroundImage: {
         "custom-gradient":

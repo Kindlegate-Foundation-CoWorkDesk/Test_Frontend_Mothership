@@ -13,11 +13,11 @@ const ContactUs = () => {
             alt="Contact Us"
           />
         </div>
-        <div className="absolute z-10 top-[100px] md:top-[270px] md:w-[589px] md:ml-[8%]">
-          <h1 className="text-zinc-100 text-center font-bold md:text-[50px] mb-4">
+        <div className="absolute z-10 top-[100px] right-[164.25px] md:top-[270px] md:w-[589px] md:mr-[8%]">
+          <h1 className="text-zinc-100 text-center font-bold md:text-[50px] mb-4 font-calibri">
             REACH US
           </h1>
-          <p className="md:text-xl font-normal text-center text-zinc-100">
+          <p className="md:text-xl font-calibri w-[589px] font-normal text-center text-zinc-100">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
             porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
             purus lectus malesuada libero, sit amet commodo magna eros quis

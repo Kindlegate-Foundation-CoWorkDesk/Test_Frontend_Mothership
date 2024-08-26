@@ -3,20 +3,20 @@ import React from 'react'
 export default function NewsMidlePage() {
   return (
     <section className="w-full h-[945px]  relative bg-amber-400">
-      <div className="w-[506px] mx-auto py-[62px]  text-center text-stone-900 text-4xl font-bold font-['Calibri'] leading-[72px]">
+      <div className="w-[506px] mx-auto py-[62px]  text-center text-stone-900 text-4xl font-bold font-calibri leading-[72px]">
         News
       </div>
       <div className="flex items-center justify-evenly">
         <div className="ml-20">
-          <div className="text-gray-900 text-xl font-bold font-['Calibri'] leading-[72px]">
+          <div className="text-gray-900 text-xl font-bold font-calibri leading-[72px]">
             What is happening now
           </div>
-          <div className="w-[598px] text-white text-[40px] font-bold font-['Calibri'] leading-[49.50px]">
+          <div className="w-[598px] text-white text-[40px] font-bold font-calibri leading-[49.50px]">
             KINDLEGATE FOUNDATION IS IN COLLABORATION WITH...
           </div>
         </div>
         <div>
-          <div className="w-[588px] h-[132px] text-zinc-800 text-xl font-normal font-['Calibri'] leading-snug">
+          <div className="w-[588px] h-[132px] text-zinc-800 text-xl font-normal font-calibri leading-snug">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -31,7 +31,7 @@ export default function NewsMidlePage() {
             src="/Rectangle 1273.png"
           />
           <div className="w-[110px]  h-8 left-[16px] top-[342px] absolute">
-            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-['Calibri'] leading-loose">
+            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-calibri leading-loose">
               Read More
               <svg
                 width="18"
@@ -50,14 +50,14 @@ export default function NewsMidlePage() {
             <div className="w-[103px] h-[30px] left-0 top-0 absolute bg-zinc-300/opacity-0 rounded-[5px] border border-black/opacity-20" />
           </div>
           <div className="w-[81px] h-10 left-[175px] top-[132px] absolute bg-amber-400 rounded-[3px]">
-            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-opensan leading-normal">
               3 JUNE
             </div>
-            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-opensan leading-normal">
               2023
             </div>
           </div>
-          <div className="w-56 left-[16px] top-[199px] absolute text-gray-900 text-[15px] font-normal font-['Calibri'] leading-[25px] tracking-wide">
+          <div className="w-56 left-[16px] top-[199px] absolute text-gray-900 text-[15px] font-normal font-calibri leading-[25px] tracking-wide">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
@@ -68,7 +68,7 @@ export default function NewsMidlePage() {
             src="/Rectangle 1273.png"
           />
           <div className="w-[110px] h-[30px] left-[16px] top-[341px] absolute">
-            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-['Calibri'] leading-loose">
+            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-calibri leading-loose">
               Read More
               <svg
                 width="18"
@@ -87,14 +87,14 @@ export default function NewsMidlePage() {
             <div className="w-[103px] h-[30px] left-0 top-0 absolute bg-zinc-300/opacity-0 rounded-[5px] border border-black/opacity-20" />
           </div>
           <div className="w-[81px] h-10 left-[175px] top-[131px] absolute bg-amber-400 rounded-[3px]">
-            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-opensan leading-normal">
               23 MAY
             </div>
-            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-opensan leading-normal">
               2023
             </div>
           </div>
-          <div className="w-56 h-[127px] left-[17px] top-[195px] absolute text-gray-900 text-[15px] font-normal font-['Calibri'] leading-[25px] tracking-wide">
+          <div className="w-56 h-[127px] left-[17px] top-[195px] absolute text-gray-900 text-[15px] font-normal font-calibri leading-[25px] tracking-wide">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
@@ -105,7 +105,7 @@ export default function NewsMidlePage() {
             src="/Rectangle 1273.png"
           />
           <div className="w-[103px] h-[30px] left-[16px] top-[342px] absolute">
-            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-['Calibri'] leading-loose">
+            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-calibri leading-loose">
               Read More
               <svg
                 width="18"
@@ -124,14 +124,14 @@ export default function NewsMidlePage() {
             <div className="w-[103px] h-[30px] left-0 top-0 absolute bg-zinc-300/opacity-0 rounded-[5px] border border-black/opacity-20" />
           </div>
           <div className="w-[81px] h-10 left-[175px] top-[132px] absolute bg-amber-400 rounded-[3px]">
-            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-opensan leading-normal">
               07 APRIL
             </div>
-            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-opensan leading-normal">
               2023
             </div>
           </div>
-          <div className="w-56 h-[127px] left-[17px] top-[196px] absolute text-gray-900 text-[15px] font-normal font-['Calibri'] leading-[25px] tracking-wide">
+          <div className="w-56 h-[127px] left-[17px] top-[196px] absolute text-gray-900 text-[15px] font-normal font-calibri leading-[25px] tracking-wide">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
@@ -142,7 +142,7 @@ export default function NewsMidlePage() {
             src="/Rectangle 1273.png"
           />
           <div className="w-[103px] h-[30px] left-[16px] top-[343px] absolute">
-            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-['Calibri'] leading-loose">
+            <div className="left-[5px] flex items-center gap-2 top-0 absolute text-black text-sm font-normal font-calibri leading-loose">
               <p> Read More</p>
               <svg
                 width="18"
@@ -161,14 +161,14 @@ export default function NewsMidlePage() {
             <div className="w-[103px] h-[30px] left-0 top-0 absolute bg-zinc-300/opacity-0 rounded-[5px] border border-black/opacity-20" />
           </div>
           <div className="w-[81px] h-10 left-[175px] top-[133px] absolute bg-amber-400 rounded-[3px]">
-            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[18px] top-[-4px] absolute text-gray-900 text-sm font-bold font-opensan leading-normal">
               23 MAR
             </div>
-            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-['Open Sans'] leading-normal">
+            <div className="left-[17px] top-[16px] absolute text-gray-900 text-xl font-bold font-opensan leading-normal">
               2023
             </div>
           </div>
-          <div className="w-56 h-[126px] left-[17px] top-[197px] absolute text-gray-900 text-[15px] font-normal font-['Calibri'] leading-[25px] tracking-wide">
+          <div className="w-56 h-[126px] left-[17px] top-[197px] absolute text-gray-900 text-[15px] font-normal font-calibri leading-[25px] tracking-wide">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </div>
