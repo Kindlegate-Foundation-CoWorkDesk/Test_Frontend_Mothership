@@ -1,12 +1,12 @@
 [phases.setup]
-nixPkgs = ['nodejs'] 
+nixPkgs = ['nodejs']
 aptPkgs = ['build-essential']
 
 [phases.install]
-cmds = ["npm install"]  
+cmds = ['npm install']
 
 [phases.build]
-cmds = ["npm run build"] 
+cmds = ['npm run build']
 
 [start]
-cmd = "npx serve -s dist"
+cmd = 'npm run start'
