@@ -6,8 +6,8 @@ aptPkgs = ['build-essential']
 cmds = ['npm install']
 
 [phases.build]
-cmds = ['npm run build']
+cmds = ['npx next build']
 
 [start]
-cmd = 'npm run start'
+cmd = 'npm start'
 env = { NODE_ENV = "production", PORT = "3000" }
